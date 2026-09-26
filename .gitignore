@@ -1,0 +1,130 @@
+# ==============================================================================
+# Environment & Secrets (Never commit secrets/credentials)
+# ==============================================================================
+*.env
+*.env.*
+!*.env.example
+*.local
+appsettings.*.local.json
+appsettings.Production.json
+
+# ==============================================================================
+# .NET / C#
+# ==============================================================================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Roslyn / User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+.vs/
+Generated\ Files/
+_ReSharper*/
+
+# Build & Test artifacts
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.publishsettings
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Crash dumps & profiling
+*.opendb
+*.stackdump
+*.dmp
+*.vsdconfig
+
+# ==============================================================================
+# Angular / Node / TypeScript
+# ==============================================================================
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Angular build outputs & cache
+.angular/
+dist/
+dist-ssr/
+out-tsc/
+bazel-out/
+
+# Unit / E2E Testing
+coverage/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+test-results/
+
+# Editor/TypeScript files
+*.tsbuildinfo
+
+# ==============================================================================
+# Visual Studio Code
+# ==============================================================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.code-workspace
+
+# ==============================================================================
+# Docker & Containers
+# ==============================================================================
+# Docker volumes / mounted database files created locally
+.docker/
+docker-compose.override.yml
+
+# ==============================================================================
+# SQL Server / LocalDB / Database Artifacts
+# ==============================================================================
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.bacpac
+*.dacpac
+
+# Local data volumes (if mapping SQL Server volumes inside project root)
+sql_data/
+mssql_data/
+data/
+
+# EF Core migrations bundle & local scripts
+*.sql.generated
+
+# ==============================================================================
+# Operating System Files
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory

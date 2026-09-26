@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="EcomBoss.Application/EcomBoss.Application.csproj" />
+  <Project Path="EcomBoss.Domain/EcomBoss.Domain.csproj" />
+  <Project Path="EcomBoss.Infrastructure/EcomBoss.Infrastructure.csproj" />
+  <Project Path="EcomBoss.Web/EcomBoss.Web.csproj" />
+</Solution>

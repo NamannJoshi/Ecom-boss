@@ -1,0 +1,6 @@
+@EcomBoss.Web_HostAddress = http://localhost:5269
+
+GET {{EcomBoss.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
