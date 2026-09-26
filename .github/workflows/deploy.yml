@@ -8,7 +8,7 @@ on:
 env:
   REGISTRY: ghcr.io
   # Converts your username/repo to lowercase for Docker naming standards
-  IMAGE_NAME: ${{ github.repository_owner }}/ecommerce-api 
+  IMAGE_NAME: namannjoshi/ecommerce-api 
   CONTAINER_APP_NAME: ecommerce-api-shell
   RESOURCE_GROUP: ecommerce-rg
 
